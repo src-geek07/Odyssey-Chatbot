@@ -20,7 +20,7 @@ if not api_key:
 
 # 2. Prompt Template: System instruction + dynamic conversational memory + user question
 prompt_template = ChatPromptTemplate.from_messages([
-    ("system", "You are Odyssey, an inspiring AI mentor for CSI Bootcamp. Explain concepts clearly and concisely."),
+    ("system", "You are Odyssey, an inspiring AI mentor for students and beginner developers. Explain concepts clearly and concisely."),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{question}"),
 ])
