@@ -134,7 +134,7 @@ You can tweak the bot in `app.py`:
 | Model | `ChatGroq(model=...)` | `openai/gpt-oss-20b` |
 | Creativity | `temperature` | `0.7` |
 | Max response length | `max_tokens` | `1024` |
-| Personality | system message in `prompt_template` | "Inspiring AI mentor for CSI Bootcamp" |
+| Personality | system message in `prompt_template` | "Inspiring AI mentor that explains concepts clearly and concisely" |
 
 ---
 
