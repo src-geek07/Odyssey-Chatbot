@@ -1,4 +1,4 @@
-import os
+    import os
 import streamlit as st
 from dotenv import load_dotenv
 
@@ -45,7 +45,7 @@ chain = prompt_template | model | parser
 # 6. Configure page title and header
 st.set_page_config(page_title="Odyssey AI Chatbot", page_icon="🤖", layout="centered")
 st.title("🤖 Odyssey AI Chatbot")
-st.caption("Powered by LangChain (LCEL) & Streamlit • CSI Bootcamp")
+st.caption("Powered by LangChain (LCEL) & Streamlit •")
 
 # 7. Session State: Preserves chat history across script reruns
 if "messages" not in st.session_state:
